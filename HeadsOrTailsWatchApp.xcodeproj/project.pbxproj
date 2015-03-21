@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		777A36121ABDD27000FE2FDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777A36111ABDD27000FE2FDA /* AppDelegate.swift */; };
+		777A36141ABDD27000FE2FDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777A36131ABDD27000FE2FDA /* ViewController.swift */; };
+		777A36171ABDD27000FE2FDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 777A36151ABDD27000FE2FDA /* Main.storyboard */; };
+		777A36191ABDD27000FE2FDA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 777A36181ABDD27000FE2FDA /* Images.xcassets */; };
+		777A361C1ABDD27000FE2FDA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 777A361A1ABDD27000FE2FDA /* LaunchScreen.xib */; };
+		777A36281ABDD27000FE2FDA /* HeadsOrTailsWatchAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777A36271ABDD27000FE2FDA /* HeadsOrTailsWatchAppTests.swift */; };
+		777A363B1ABDD28300FE2FDA /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777A363A1ABDD28300FE2FDA /* InterfaceController.swift */; };
+		777A363D1ABDD28300FE2FDA /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777A363C1ABDD28300FE2FDA /* NotificationController.swift */; };
+		777A363F1ABDD28300FE2FDA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 777A363E1ABDD28300FE2FDA /* Images.xcassets */; };
+		777A36431ABDD28300FE2FDA /* HeadsOrTailsWatchApp WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 777A36421ABDD28300FE2FDA /* HeadsOrTailsWatchApp WatchKit App.app */; };
+		777A364B1ABDD28300FE2FDA /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 777A36491ABDD28300FE2FDA /* Interface.storyboard */; };
+		777A364D1ABDD28300FE2FDA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 777A364C1ABDD28300FE2FDA /* Images.xcassets */; };
+		777A36501ABDD28300FE2FDA /* HeadsOrTailsWatchApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 777A36351ABDD28300FE2FDA /* HeadsOrTailsWatchApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		777A36221ABDD27000FE2FDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 777A36041ABDD27000FE2FDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 777A360B1ABDD27000FE2FDA;
+			remoteInfo = HeadsOrTailsWatchApp;
+		};
+		777A36441ABDD28300FE2FDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 777A36041ABDD27000FE2FDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 777A36411ABDD28300FE2FDA;
+			remoteInfo = "HeadsOrTailsWatchApp WatchKit App";
+		};
+		777A364E1ABDD28300FE2FDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 777A36041ABDD27000FE2FDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 777A36341ABDD28300FE2FDA;
+			remoteInfo = "HeadsOrTailsWatchApp WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		777A36571ABDD28300FE2FDA /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				777A36501ABDD28300FE2FDA /* HeadsOrTailsWatchApp WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		777A360C1ABDD27000FE2FDA /* HeadsOrTailsWatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeadsOrTailsWatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		777A36101ABDD27000FE2FDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		777A36111ABDD27000FE2FDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		777A36131ABDD27000FE2FDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		777A36161ABDD27000FE2FDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		777A36181ABDD27000FE2FDA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		777A361B1ABDD27000FE2FDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		777A36211ABDD27000FE2FDA /* HeadsOrTailsWatchAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeadsOrTailsWatchAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		777A36261ABDD27000FE2FDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		777A36271ABDD27000FE2FDA /* HeadsOrTailsWatchAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadsOrTailsWatchAppTests.swift; sourceTree = "<group>"; };
+		777A36351ABDD28300FE2FDA /* HeadsOrTailsWatchApp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HeadsOrTailsWatchApp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		777A36381ABDD28300FE2FDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		777A36391ABDD28300FE2FDA /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		777A363A1ABDD28300FE2FDA /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		777A363C1ABDD28300FE2FDA /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		777A363E1ABDD28300FE2FDA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		777A36421ABDD28300FE2FDA /* HeadsOrTailsWatchApp WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HeadsOrTailsWatchApp WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		777A36481ABDD28300FE2FDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		777A364A1ABDD28300FE2FDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		777A364C1ABDD28300FE2FDA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		777A36091ABDD27000FE2FDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		777A361E1ABDD27000FE2FDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		777A36321ABDD28300FE2FDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		777A36031ABDD27000FE2FDA = {
+			isa = PBXGroup;
+			children = (
+				777A360E1ABDD27000FE2FDA /* HeadsOrTailsWatchApp */,
+				777A36241ABDD27000FE2FDA /* HeadsOrTailsWatchAppTests */,
+				777A36361ABDD28300FE2FDA /* HeadsOrTailsWatchApp WatchKit Extension */,
+				777A36461ABDD28300FE2FDA /* HeadsOrTailsWatchApp WatchKit App */,
+				777A360D1ABDD27000FE2FDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		777A360D1ABDD27000FE2FDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				777A360C1ABDD27000FE2FDA /* HeadsOrTailsWatchApp.app */,
+				777A36211ABDD27000FE2FDA /* HeadsOrTailsWatchAppTests.xctest */,
+				777A36351ABDD28300FE2FDA /* HeadsOrTailsWatchApp WatchKit Extension.appex */,
+				777A36421ABDD28300FE2FDA /* HeadsOrTailsWatchApp WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		777A360E1ABDD27000FE2FDA /* HeadsOrTailsWatchApp */ = {
+			isa = PBXGroup;
+			children = (
+				777A36111ABDD27000FE2FDA /* AppDelegate.swift */,
+				777A36131ABDD27000FE2FDA /* ViewController.swift */,
+				777A36151ABDD27000FE2FDA /* Main.storyboard */,
+				777A36181ABDD27000FE2FDA /* Images.xcassets */,
+				777A361A1ABDD27000FE2FDA /* LaunchScreen.xib */,
+				777A360F1ABDD27000FE2FDA /* Supporting Files */,
+			);
+			path = HeadsOrTailsWatchApp;
+			sourceTree = "<group>";
+		};
+		777A360F1ABDD27000FE2FDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				777A36101ABDD27000FE2FDA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		777A36241ABDD27000FE2FDA /* HeadsOrTailsWatchAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				777A36271ABDD27000FE2FDA /* HeadsOrTailsWatchAppTests.swift */,
+				777A36251ABDD27000FE2FDA /* Supporting Files */,
+			);
+			path = HeadsOrTailsWatchAppTests;
+			sourceTree = "<group>";
+		};
+		777A36251ABDD27000FE2FDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				777A36261ABDD27000FE2FDA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		777A36361ABDD28300FE2FDA /* HeadsOrTailsWatchApp WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				777A363A1ABDD28300FE2FDA /* InterfaceController.swift */,
+				777A363C1ABDD28300FE2FDA /* NotificationController.swift */,
+				777A363E1ABDD28300FE2FDA /* Images.xcassets */,
+				777A36371ABDD28300FE2FDA /* Supporting Files */,
+			);
+			path = "HeadsOrTailsWatchApp WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		777A36371ABDD28300FE2FDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				777A36381ABDD28300FE2FDA /* Info.plist */,
+				777A36391ABDD28300FE2FDA /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		777A36461ABDD28300FE2FDA /* HeadsOrTailsWatchApp WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				777A36491ABDD28300FE2FDA /* Interface.storyboard */,
+				777A364C1ABDD28300FE2FDA /* Images.xcassets */,
+				777A36471ABDD28300FE2FDA /* Supporting Files */,
+			);
+			path = "HeadsOrTailsWatchApp WatchKit App";
+			sourceTree = "<group>";
+		};
+		777A36471ABDD28300FE2FDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				777A36481ABDD28300FE2FDA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		777A360B1ABDD27000FE2FDA /* HeadsOrTailsWatchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 777A362B1ABDD27100FE2FDA /* Build configuration list for PBXNativeTarget "HeadsOrTailsWatchApp" */;
+			buildPhases = (
+				777A36081ABDD27000FE2FDA /* Sources */,
+				777A36091ABDD27000FE2FDA /* Frameworks */,
+				777A360A1ABDD27000FE2FDA /* Resources */,
+				777A36571ABDD28300FE2FDA /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				777A364F1ABDD28300FE2FDA /* PBXTargetDependency */,
+			);
+			name = HeadsOrTailsWatchApp;
+			productName = HeadsOrTailsWatchApp;
+			productReference = 777A360C1ABDD27000FE2FDA /* HeadsOrTailsWatchApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		777A36201ABDD27000FE2FDA /* HeadsOrTailsWatchAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 777A362E1ABDD27100FE2FDA /* Build configuration list for PBXNativeTarget "HeadsOrTailsWatchAppTests" */;
+			buildPhases = (
+				777A361D1ABDD27000FE2FDA /* Sources */,
+				777A361E1ABDD27000FE2FDA /* Frameworks */,
+				777A361F1ABDD27000FE2FDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				777A36231ABDD27000FE2FDA /* PBXTargetDependency */,
+			);
+			name = HeadsOrTailsWatchAppTests;
+			productName = HeadsOrTailsWatchAppTests;
+			productReference = 777A36211ABDD27000FE2FDA /* HeadsOrTailsWatchAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		777A36341ABDD28300FE2FDA /* HeadsOrTailsWatchApp WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 777A36541ABDD28300FE2FDA /* Build configuration list for PBXNativeTarget "HeadsOrTailsWatchApp WatchKit Extension" */;
+			buildPhases = (
+				777A36311ABDD28300FE2FDA /* Sources */,
+				777A36321ABDD28300FE2FDA /* Frameworks */,
+				777A36331ABDD28300FE2FDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				777A36451ABDD28300FE2FDA /* PBXTargetDependency */,
+			);
+			name = "HeadsOrTailsWatchApp WatchKit Extension";
+			productName = "HeadsOrTailsWatchApp WatchKit Extension";
+			productReference = 777A36351ABDD28300FE2FDA /* HeadsOrTailsWatchApp WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		777A36411ABDD28300FE2FDA /* HeadsOrTailsWatchApp WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 777A36511ABDD28300FE2FDA /* Build configuration list for PBXNativeTarget "HeadsOrTailsWatchApp WatchKit App" */;
+			buildPhases = (
+				777A36401ABDD28300FE2FDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HeadsOrTailsWatchApp WatchKit App";
+			productName = "HeadsOrTailsWatchApp WatchKit App";
+			productReference = 777A36421ABDD28300FE2FDA /* HeadsOrTailsWatchApp WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		777A36041ABDD27000FE2FDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Rommel Rico";
+				TargetAttributes = {
+					777A360B1ABDD27000FE2FDA = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					777A36201ABDD27000FE2FDA = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 777A360B1ABDD27000FE2FDA;
+					};
+					777A36341ABDD28300FE2FDA = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					777A36411ABDD28300FE2FDA = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 777A36071ABDD27000FE2FDA /* Build configuration list for PBXProject "HeadsOrTailsWatchApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 777A36031ABDD27000FE2FDA;
+			productRefGroup = 777A360D1ABDD27000FE2FDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				777A360B1ABDD27000FE2FDA /* HeadsOrTailsWatchApp */,
+				777A36201ABDD27000FE2FDA /* HeadsOrTailsWatchAppTests */,
+				777A36341ABDD28300FE2FDA /* HeadsOrTailsWatchApp WatchKit Extension */,
+				777A36411ABDD28300FE2FDA /* HeadsOrTailsWatchApp WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		777A360A1ABDD27000FE2FDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777A36171ABDD27000FE2FDA /* Main.storyboard in Resources */,
+				777A361C1ABDD27000FE2FDA /* LaunchScreen.xib in Resources */,
+				777A36191ABDD27000FE2FDA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		777A361F1ABDD27000FE2FDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		777A36331ABDD28300FE2FDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777A363F1ABDD28300FE2FDA /* Images.xcassets in Resources */,
+				777A36431ABDD28300FE2FDA /* HeadsOrTailsWatchApp WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		777A36401ABDD28300FE2FDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777A364B1ABDD28300FE2FDA /* Interface.storyboard in Resources */,
+				777A364D1ABDD28300FE2FDA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		777A36081ABDD27000FE2FDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777A36141ABDD27000FE2FDA /* ViewController.swift in Sources */,
+				777A36121ABDD27000FE2FDA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		777A361D1ABDD27000FE2FDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777A36281ABDD27000FE2FDA /* HeadsOrTailsWatchAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		777A36311ABDD28300FE2FDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777A363D1ABDD28300FE2FDA /* NotificationController.swift in Sources */,
+				777A363B1ABDD28300FE2FDA /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		777A36231ABDD27000FE2FDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 777A360B1ABDD27000FE2FDA /* HeadsOrTailsWatchApp */;
+			targetProxy = 777A36221ABDD27000FE2FDA /* PBXContainerItemProxy */;
+		};
+		777A36451ABDD28300FE2FDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 777A36411ABDD28300FE2FDA /* HeadsOrTailsWatchApp WatchKit App */;
+			targetProxy = 777A36441ABDD28300FE2FDA /* PBXContainerItemProxy */;
+		};
+		777A364F1ABDD28300FE2FDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 777A36341ABDD28300FE2FDA /* HeadsOrTailsWatchApp WatchKit Extension */;
+			targetProxy = 777A364E1ABDD28300FE2FDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		777A36151ABDD27000FE2FDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				777A36161ABDD27000FE2FDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		777A361A1ABDD27000FE2FDA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				777A361B1ABDD27000FE2FDA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		777A36491ABDD28300FE2FDA /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				777A364A1ABDD28300FE2FDA /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		777A36291ABDD27100FE2FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		777A362A1ABDD27100FE2FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		777A362C1ABDD27100FE2FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = HeadsOrTailsWatchApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		777A362D1ABDD27100FE2FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = HeadsOrTailsWatchApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		777A362F1ABDD27100FE2FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HeadsOrTailsWatchAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeadsOrTailsWatchApp.app/HeadsOrTailsWatchApp";
+			};
+			name = Debug;
+		};
+		777A36301ABDD27100FE2FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HeadsOrTailsWatchAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeadsOrTailsWatchApp.app/HeadsOrTailsWatchApp";
+			};
+			name = Release;
+		};
+		777A36521ABDD28300FE2FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = HeadsOrTailsWatchApp_WatchKit_Extension;
+				INFOPLIST_FILE = "HeadsOrTailsWatchApp WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		777A36531ABDD28300FE2FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = HeadsOrTailsWatchApp_WatchKit_Extension;
+				INFOPLIST_FILE = "HeadsOrTailsWatchApp WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		777A36551ABDD28300FE2FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HeadsOrTailsWatchApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		777A36561ABDD28300FE2FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "HeadsOrTailsWatchApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		777A36071ABDD27000FE2FDA /* Build configuration list for PBXProject "HeadsOrTailsWatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				777A36291ABDD27100FE2FDA /* Debug */,
+				777A362A1ABDD27100FE2FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		777A362B1ABDD27100FE2FDA /* Build configuration list for PBXNativeTarget "HeadsOrTailsWatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				777A362C1ABDD27100FE2FDA /* Debug */,
+				777A362D1ABDD27100FE2FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		777A362E1ABDD27100FE2FDA /* Build configuration list for PBXNativeTarget "HeadsOrTailsWatchAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				777A362F1ABDD27100FE2FDA /* Debug */,
+				777A36301ABDD27100FE2FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		777A36511ABDD28300FE2FDA /* Build configuration list for PBXNativeTarget "HeadsOrTailsWatchApp WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				777A36521ABDD28300FE2FDA /* Debug */,
+				777A36531ABDD28300FE2FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		777A36541ABDD28300FE2FDA /* Build configuration list for PBXNativeTarget "HeadsOrTailsWatchApp WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				777A36551ABDD28300FE2FDA /* Debug */,
+				777A36561ABDD28300FE2FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 777A36041ABDD27000FE2FDA /* Project object */;
+}
